@@ -10,3 +10,15 @@
 <p>Backend: Node.js, Express, cors, orm, docker, sequelize, mongoose ,bcrypt, jsonwebtoken, multer e yup</p>
 
 <p>Banco de dados: PostgresSQL e MongoDB</p>
+
+<h3>Desktop</h3>
+<img src='./src/assets/Login.png' alt="login"/>
+<img src='./src/assets/Register.png' alt="register"/>
+<img src='./src/assets/Home1.png' alt="home1"/>
+<img src='./src/assets/Home2.png' alt="home2"/>
+<img src='./src/assets/Products1.png' alt="products1"/>
+<img src='./src/assets/Products2.png' alt="products2"/>
+<img src='./src/assets/Cart.png' alt="cart"/>
+
+<h3>Mobile</h3>
+
