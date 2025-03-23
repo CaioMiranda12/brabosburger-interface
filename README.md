@@ -1,15 +1,23 @@
 # Brabos Burger - Hamburgueria React + Vite (Front End)
 
-<p>Um website de hamburgueria, com um sistema de login e cadastro intuitivo, organização por categorias para facilitar a escolha dos produtos e uma seção especial destacando as ofertas do dia logo na tela inicial. <br /><br /> Possui também um sistema simples e eficiente que permite aos usuários selecionar a quantidade desejada de cada item e enviá-los diretamente para o carrinho de compras. Com o Brabos Burger, a experiência de pedir hambúrgueres nunca foi tão conveniente e saborosa.</p>
+Este projeto é um exemplo interativo para demonstrar o uso de tecnologias incríveis! Aqui você encontrará informações sobre o projeto, as ferramentas utilizadas e instruções sobre como executá-lo em seu ambiente local.
 
-<p>OBS: Além disso, a aplicação é totalmente responsiva para mobile, tablet e desktop</p>
+## ℹ️ Sobre o Projeto
 
-<h2>Tecnologias Utilizadas</h2>
-<p>Front end: HTML, CSS, Javascript, React, React hook form, react-elastic-carrousel, react toastify, react-router-dom, styled-components, context api e material ui.</p>
+Um site de hamburgueria com login, categorias para fácil navegação e ofertas do dia em destaque. Permite selecionar itens e enviá-los ao carrinho de forma simples e eficiente. Foi desenvolvido com as seguintes tecnologias:
 
-<p>Backend: Node.js, Express, cors, orm, docker, sequelize, mongoose ,bcrypt, jsonwebtoken, multer e yup</p>
+- Linguagem: JavaScript
+- Framework: React e NodeJS
+- Banco de Dados: PostgreSQL e MongoDB
 
-<p>Banco de dados: PostgresSQL e MongoDB</p>
+## 🛠️ Ferramentas Utilizadas
+
+### Front-End: 
+React, React hook form, react-elastic-carrousel, react toastify, react-router-dom, styled-components, context api e material ui.
+
+### Back-End: 
+Node.js, Express, cors, orm, docker, sequelize, mongoose ,bcrypt, jsonwebtoken, multer e yup
+<br><br>
 
 <h3>Imagens</h3>
 <img src='./src/assets/Login.png' alt="login"/>
