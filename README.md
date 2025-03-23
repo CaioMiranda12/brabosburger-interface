@@ -1,6 +1,6 @@
 # Brabos Burger - Hamburgueria React + Vite (Front End)
 
-Este projeto é um exemplo interativo para demonstrar o uso de tecnologias incríveis! Aqui você encontrará informações sobre o projeto, as ferramentas utilizadas e instruções sobre como executá-lo em seu ambiente local.
+Este projeto simula uma hamburgueria online, oferecendo login, organização por categorias e um sistema intuitivo de pedidos
 
 ## ℹ️ Sobre o Projeto
 
@@ -13,13 +13,13 @@ Um site de hamburgueria com login, categorias para fácil navegação e ofertas 
 ## 🛠️ Ferramentas Utilizadas
 
 ### Front-End: 
-React, React hook form, react-elastic-carrousel, react toastify, react-router-dom, styled-components, context api e material ui.
+React, React Hook Form, React Elastic Carousel, React Toastify, React Router Dom, Styled Components, Context API, Material UI.
 
 ### Back-End: 
-Node.js, Express, cors, orm, docker, sequelize, mongoose ,bcrypt, jsonwebtoken, multer e yup
+Node.js, Express, CORS, ORM, Docker, Sequelize, Mongoose, Bcrypt, JsonWebToken, Multer, Yup.
 <br><br>
 
-<h3>Imagens</h3>
+## Imagens
 <img src='./src/assets/Login.png' alt="login"/>
 <img src='./src/assets/Register.png' alt="register"/>
 <img src='./src/assets/Home1.png' alt="home1"/>
