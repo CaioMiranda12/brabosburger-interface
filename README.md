@@ -19,41 +19,6 @@ React, React Hook Form, React Elastic Carousel, React Toastify, React Router Dom
 Node.js, Express, CORS, Docker, Sequelize, Mongoose, Bcrypt, JsonWebToken, Multer, Yup.
 <br><br>
 
-## 🚀 Executando o Projeto
-
-Siga as instruções abaixo para executar o projeto em seu ambiente local:
-
-1. **Clone o repositório:**
-
-   ```
-   git clone https://github.com/CaioMiranda12/brabosburger-interface.git
-   ```
-
-2. **Navegue até o diretório do projeto:**
-
-   ```
-   cd .\brabosburger-interface\
-   ```
-
-3. **Instale as dependências:**
-
-   ```
-   yarn
-   ```
-
-4. **Execute o servidor:**
-
-   ```
-   yarn dev
-   ```
-
-5. **Acesse a aplicação:**
-
-   Abra o seu navegador e digite o seguinte endereço:
-
-   ```
-   http://localhost:5173
-   ```
 
 ## Imagens
 <img src='./src/assets/Login.png' alt="login"/>
