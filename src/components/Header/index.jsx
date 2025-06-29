@@ -27,13 +27,13 @@ export function Header() {
   return (
     <Container>
       <LeftContainer>
-        <PageLink onClick={() => navigate('/')} isActive={pathname == '/'}>
+        <PageLink onClick={() => navigate('/')} $isActive={pathname == '/'}>
           Home
         </PageLink>
         <Line></Line>
         <PageLink
           onClick={() => navigate('/produtos')}
-          isActive={pathname.includes('produtos')}
+          $isActive={pathname.includes('produtos')}
         >
           Ver Produtos
         </PageLink>
@@ -42,7 +42,7 @@ export function Header() {
       <RightContainer>
         <PageLink
           onClick={() => navigate('/carrinho')}
-          isActive={pathname == '/carrinho'}
+          $isActive={pathname == '/carrinho'}
         >
           <img src={cartIcon} alt="imagem do carrinho" />
         </PageLink>

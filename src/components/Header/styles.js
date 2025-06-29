@@ -16,11 +16,11 @@ export const LeftContainer = styled.div`
 `;
 
 export const PageLink = styled.a`
-  color: ${(props) => (props.isActive ? 'darkorange' : '#fff')};
+  color: ${(props) => (props.$isActive ? 'darkorange' : '#fff')};
   text-decoration: none;
   font-size: 14px;
   line-height: 11.3px;
-  font-weight: ${(props) => (props.isActive ? 'bold' : 'normal')};
+  font-weight: ${(props) => (props.$isActive ? 'bold' : 'normal')};
 `;
 
 export const RightContainer = styled.div`
