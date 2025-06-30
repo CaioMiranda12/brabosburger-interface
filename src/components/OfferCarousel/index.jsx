@@ -44,6 +44,7 @@ export function OfferCarousel() {
         itemsToShow={5}
         breakPoints={breakPoints}
         style={{ width: '90%' }}
+        className="carousel-ofertas"
       >
         {offers &&
           offers.map((product) => (

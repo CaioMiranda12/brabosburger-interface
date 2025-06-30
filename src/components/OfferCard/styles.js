@@ -10,10 +10,15 @@ export const Container = styled.div`
   padding: 15px 10px;
   width: 270px;
   height: 258px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
-  -webkit-box-shadow: 10px 10px 14px -3px rgba(0, 0, 0, 0.54);
-  -moz-box-shadow: 10px 10px 14px -3px rgba(0, 0, 0, 0.54);
-  box-shadow: 10px 10px 14px -3px rgba(0, 0, 0, 0.54);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   @media (max-width: 720px) {
     width: 150px;

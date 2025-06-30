@@ -15,6 +15,10 @@ const globalStyles = createGlobalStyle`
     button, a {
         cursor: pointer;
     }
+
+    .carousel-ofertas .rec-item-wrapper {
+    padding: 20px !important;
+  }
 `;
 
 export default globalStyles;
