@@ -34,7 +34,7 @@ export const CategoryButton = styled.button`
   font-weight: 800;
 
   @media (max-width: 720px) {
-    font-size: 13px;
+    font-size: 16px;
   }
 `;
 
@@ -45,8 +45,8 @@ export const ProductsContainer = styled.div`
   padding: 60px 120px;
   justify-items: center;
 
-  @media (max-width: 720px) {
+  @media (max-width: 1000px) {
     grid-template-columns: 2fr 2fr;
-    padding: 30px 0 0 0;
+    padding: 30px 20px;
   }
 `;

@@ -8,7 +8,8 @@ export const NormalCard = styled.div`
   border: 1px solid #e0e0e0;
   border-radius: 32px;
   padding: 15px 10px;
-  width: 270px;
+  width: 100%;
+  max-width: 300px;
   height: 258px;
   position: relative;
   overflow: hidden;
@@ -23,7 +24,7 @@ export const NormalCard = styled.div`
   }
 
   @media (max-width: 720px) {
-    width: 150px;
+    width: 100%;
     height: 100%;
   }
 `;
@@ -43,7 +44,8 @@ export const OfferCard = styled.div`
   border: 2px solid #ff4d4f;
   border-radius: 32px;
   padding: 15px 10px;
-  width: 270px;
+  width: 100%;
+  max-width: 300px;
   height: 258px;
   position: relative;
 
@@ -70,7 +72,7 @@ export const OfferCard = styled.div`
   }
 
   @media (max-width: 720px) {
-    width: 150px;
+    width: 100%;
     height: 100%;
   }
 `;
