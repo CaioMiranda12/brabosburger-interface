@@ -5,42 +5,45 @@ import cartIcon from '../../assets/CartIcon.png';
 import { useCart } from '../../hooks/CartContext';
 import {
   ProductName,
-  Container,
   Image,
   Price,
   Button,
   ProductInfo,
   CartBottom,
+  OfferCard,
+  NormalCard,
 } from './styles';
 
-export function OfferCard({ product }) {
+export function ProductCard({ product }) {
   const navigate = useNavigate();
 
   const { putProductInCart } = useCart();
+  const Card = product.offer ? OfferCard : NormalCard;
 
   return (
-    <Container>
+    <Card>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Image src={product.url} alt="imagem do produto" />
       </div>
       <CartBottom>
-        <ProductName>{product.name}</ProductName>
         <ProductInfo>
+          <ProductName>{product.name}</ProductName>
           <Price>{product.formatedCurrency}</Price>
-          <Button
-            onClick={() => {
-              putProductInCart(product);
-              navigate('/carrinho');
-            }}
-          >
-            <img src={cartIcon} alt="icone do carrinho" />
-          </Button>
         </ProductInfo>
+
+        <Button
+          onClick={() => {
+            putProductInCart(product);
+            navigate('/carrinho');
+          }}
+        >
+          <img src={cartIcon} alt="icone do carrinho" />
+        </Button>
       </CartBottom>
-    </Container>
+    </Card>
   );
 }
 
-OfferCard.propTypes = {
+ProductCard.propTypes = {
   product: PropTypes.object,
 };

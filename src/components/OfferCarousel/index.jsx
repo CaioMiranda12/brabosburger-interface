@@ -3,7 +3,7 @@ import Carousel from 'react-elastic-carousel';
 
 import api from '../../services/api';
 import formatCurrency from '../../utils/formatCurrency';
-import { OfferCard } from '../OfferCard';
+import { ProductCard } from '../ProductCard';
 import { OfferTitle, Container } from './styles';
 
 export function OfferCarousel() {
@@ -48,7 +48,7 @@ export function OfferCarousel() {
       >
         {offers &&
           offers.map((product) => (
-            <OfferCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} />
           ))}
       </Carousel>
     </Container>

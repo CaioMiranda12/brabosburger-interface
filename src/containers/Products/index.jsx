@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import ProductImage from '../../assets/productImage.svg';
-import { OfferCard } from '../../components';
+import { ProductCard } from '../../components';
 import api from '../../services/api';
 import formatCurrency from '../../utils/formatCurrency';
 import {
@@ -86,7 +86,7 @@ export function Products() {
       <ProductsContainer>
         {filteredProducts &&
           filteredProducts.map((product) => (
-            <OfferCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} />
           ))}
       </ProductsContainer>
     </Container>
