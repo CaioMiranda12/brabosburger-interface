@@ -34,7 +34,9 @@ export const Wrapper = styled.div`
   margin-top: 30px;
   padding-bottom: 30px;
 
-  @media (max-width: 720px) {
+  @media (max-width: 1080px) {
     flex-direction: column;
+    gap: 30px;
+    padding: 20px;
   }
 `;

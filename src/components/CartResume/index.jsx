@@ -46,7 +46,9 @@ export function CartResume() {
 
         <div className="container-bottom">
           <p>Total</p>
-          <p>{formatCurrency(finalPriceWithoutTax + deliveryTax)}</p>
+          <p className="total-price">
+            {formatCurrency(finalPriceWithoutTax + deliveryTax)}
+          </p>
         </div>
       </Container>
 

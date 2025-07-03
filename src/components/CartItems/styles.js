@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 10px;
   width: max-content;
 
-  @media (max-width: 720px) {
+  @media (max-width: 1080px) {
     width: 100%;
   }
 `;
@@ -33,7 +33,7 @@ export const Body = styled.div`
   padding: 10px;
   grid-gap: 10px 15px;
 
-  @media (max-width: 720px) {
+  @media (max-width: 1080px) {
     width: 100%;
   }
 
@@ -42,7 +42,7 @@ export const Body = styled.div`
     background-color: #f3f3f3;
     width: 120px;
 
-    @media (max-width: 720px) {
+    @media (max-width: 1080px) {
       width: 60px;
     }
   }
@@ -52,9 +52,12 @@ export const Body = styled.div`
     width: 124px;
     color: #484848;
 
+    @media (max-width: 1080px) {
+      width: 100%;
+    }
+
     @media (max-width: 720px) {
       font-size: 10px;
-      width: 100%;
     }
   }
 

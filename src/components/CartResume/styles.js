@@ -28,6 +28,7 @@ export const Container = styled.div`
 
     .items-price {
       grid-area: items-price;
+      text-align: right;
     }
 
     .delivery-tax {
@@ -36,6 +37,11 @@ export const Container = styled.div`
 
     .delivery-tax-price {
       grid-area: delivery-tax-price;
+      text-align: right;
+    }
+
+    @media (max-width: 1080px) {
+      width: 100%;
     }
   }
 
@@ -44,5 +50,9 @@ export const Container = styled.div`
 
     display: flex;
     justify-content: space-between;
+
+    .total-price {
+      font-weight: bold;
+    }
   }
 `;

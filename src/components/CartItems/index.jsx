@@ -4,7 +4,6 @@ import { Container, Header, Body, EmptyCart, AddMoreProduct } from './styles';
 
 export function CartItems() {
   const { cartProducts, increaseProducts, decreaseProducts } = useCart();
-  // console.log(cartProducts);
 
   return (
     <Container>
